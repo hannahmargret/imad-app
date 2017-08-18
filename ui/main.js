@@ -24,7 +24,7 @@ btn.onclick = function(){
     }
     
     request.open('GET', 'http://hannahmargret.imad.hasura-app.io/counter', true);
-    request.send();
+    request.send(null);
 };
   //counter = counter + 1;
   //var span = document.getElementById("count");
