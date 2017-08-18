@@ -15,9 +15,9 @@ img.onclick = function(){
 };
 
 var counter = 0;
-var btn = document.getElementById("counter");
+var button = document.getElementById("counter");
 
-btn.onclick = function(){
+button.onclick = function(){
   counter = counter + 1;
   var span = document.getElementById("count");
   span.innerHTML = counter.toString();
