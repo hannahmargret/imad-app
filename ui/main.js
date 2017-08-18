@@ -11,6 +11,7 @@ btn.onclick = function(){
         // Everything is good, the response was received.
             if (request.status === 200) {
                 // Perfect!
+                alert(request.responseText);
                 var counter = request.responseText;
                 var span = document.getElementById("count");
                 span.innerHTML = counter.toString();
