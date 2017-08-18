@@ -23,7 +23,7 @@ btn.onclick = function(){
             // Not ready yet.
     }
     
-    request.open('GET', 'hannahmargret.imad.hasura-app.io/counter', true);
+    request.open('GET', 'http://hannahmargret.imad.hasura-app.io/counter', true);
     request.send(null);
 };
   //counter = counter + 1;
